@@ -1,5 +1,9 @@
+import { ChatTeardropDots } from "phosphor-react"
+
 export function Widget() {
   return (
-    <h1>Widget</h1>
+    <button className="bg-violet-500">
+      <ChatTeardropDots className="w-6 h-6"/>
+    </button>
   )
 }
