@@ -1,10 +1,9 @@
-import { CloseButton } from "../CloseButton";
-
 import bugImageUrl from '../../assets/bug.svg';
 import ideaImageUrl from '../../assets/idea.svg';
 import thoughtImageUrl from '../../assets/thought.svg';
 import { useState } from "react";
 import { FeedbackTypeStep } from "./Steps/FeedbackTypeStep";
+import { FeedbackContentStep } from "./Steps/FeedbackContentStep";
 
 export const feedbackType = {
   BUG: {
@@ -37,15 +36,11 @@ export function WidgetForm() {
 
   return(
     <div className="bg-zinc-900 p-4 relative rounded-2xl flex flex-col items-center shadow-lg w-[calc(100vw-2rem)] md:w-auto">
-      <header>
-        <span className="text-xl leading-6">Deixe seu comentário</span>
-        
-        <CloseButton />
-      </header>
+    
       {!feedbackType ? (
         <FeedbackTypeStep onFeedbackTypeChanged={setFeedbackType}/>
       ) : (
-        <p>Hello Word</p>
+        <FeedbackContentStep />
       )}
       
       
