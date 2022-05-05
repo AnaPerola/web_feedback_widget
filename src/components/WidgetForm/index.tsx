@@ -5,7 +5,7 @@ import { useState } from "react";
 import { FeedbackTypeStep } from "./Steps/FeedbackTypeStep";
 import { FeedbackContentStep } from "./Steps/FeedbackContentStep";
 
-export const feedbackType = {
+export const feedbackTypes = {
   BUG: {
     title: "Problema",
     image: {
@@ -29,7 +29,7 @@ export const feedbackType = {
   }
 }
 
-export type FeedbackType = keyof typeof feedbackType;
+export type FeedbackType = keyof typeof feedbackTypes;
 
 export function WidgetForm() {
   const [feedbackType, setFeedbackType] = useState<FeedbackType | null>(null);
@@ -40,7 +40,7 @@ export function WidgetForm() {
       {!feedbackType ? (
         <FeedbackTypeStep onFeedbackTypeChanged={setFeedbackType}/>
       ) : (
-        <FeedbackContentStep />
+        <FeedbackContentStep feedbackType={feedbackType}/>
       )}
       
       
