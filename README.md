@@ -38,10 +38,10 @@ O Layout deste projeto esta acessível através deste link: https://www.figma.co
 
 ## 🔨 Funcionalidades
 
-- [X] `Tipo de feedback`: Usuário seleciona o tipo de feedback que gostaria de enviar da pagina em atual.
-- [X] `Descrição de feedback`: Usuário descreve com detalhes qual problema/ideia/outro tipo de feedback ele gostaria de enviar.
-- [X] `Screenshot`: Usuário clica no botão disponível para capturar a tela atual que se refere ao feedback.
-- [X] `Envio de Feedback`: Usuário envia este formulario preenchido selecionando o botão de enviar 
+- [X] `Tipo de feedback`: Seleção de tipo de feedback para envio.
+- [X] `Descrição de feedback`: Descrição em campo de formulário para inserir detalhes qual problema/ideia/outro tipo de feedback desejavel para envio.
+- [X] `Screenshot`: Captura a tela atual que se refere ao feedback.
+- [X] `Envio de Feedback`: Envio deste formulario preenchido com o screenshot para o Backend fazer as devidas validações.
 
 ## 📋 Pré-requisitos
 
