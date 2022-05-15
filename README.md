@@ -1,3 +1,7 @@
+<div align="center">
+  <img height="150em" src="./assets/new.png" />
+</div>
+
 <p align="center">
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-técnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -6,10 +10,6 @@
   <a href="#-pré-requisitos">Pré-requisitos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-iniciando-o-projeto">Iniciando Projeto</a>&nbsp;&nbsp;&nbsp;
 </p>
-
-<div align="center">
-  <img height="150em" src="./assets/new.png" />
-</div>
 
   ![deploy](https://img.shields.io/static/v1?label=state&message=production&color=green)
   ![release-date](https://img.shields.io/static/v1?label=release-date&message=May-2022&color=orange)
