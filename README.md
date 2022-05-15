@@ -13,6 +13,7 @@
 
   ![deploy](https://img.shields.io/static/v1?label=state&message=production&color=green)
   ![release-date](https://img.shields.io/static/v1?label=release-date&message=May-2022&color=orange)
+  ![Vercel](https://vercelbadge.vercel.app/api/anaperola/web_feedback_widget)
 
 # ✨ *Widget-Feedbacks*
 
@@ -20,7 +21,7 @@
 
 Esse projeto é um Widget (elemento de interação) de Feedback que pode ser utilizado em qualquer aplicação que tenha o interesse em coletar o feedback do usuário que está utilizando o aplicação.
 
-## 📁 Disponivel em:
+## 🔗 Disponivel em:
 
 acesse: https://web-feedback-widget-dusky.vercel.app/
 
@@ -29,7 +30,7 @@ acesse: https://web-feedback-widget-dusky.vercel.app/
 - [Reactjs](https://pt-br.reactjs.org/)
 - [Typescript](https://www.typescriptlang.org/)
 - [Tailwindcss](https://tailwindcss.com/)
-
+- [Axios](https://axios-http.com/ptbr/docs/intro)
 
 ## 🔖 Layout
 
@@ -37,14 +38,27 @@ O Layout deste projeto esta acessível através deste link: https://www.figma.co
 
 ## 🔨 Funcionalidades
 
-- `Funcionalidade 1`: descrição da funcionalidade 1
-- `Funcionalidade 2`: descrição da funcionalidade 2
-- `Funcionalidade 2a`: descrição da funcionalidade 2a relacionada à funcionalidade 2
-- `Funcionalidade 3`: descrição da funcionalidade 3
+- [X] `Tipo de feedback`: Usuário seleciona o tipo de feedback que gostaria de enviar da pagina em atual.
+- [X] `Descrição de feedback`: Usuário descreve com detalhes qual problema/ideia/outro tipo de feedback ele gostaria de enviar.
+- [X] `Screenshot`: Usuário clica no botão disponível para capturar a tela atual que se refere ao feedback.
+- [X] `Envio de Feedback`: Usuário envia este formulario preenchido selecionando o botão de enviar 
 
 ## 📋 Pré-requisitos
 
 - [Nodejs > 14.15v](https://nodejs.org/en/)
+
+#
+
+## 💡 Este projeto é divido em três partes:
+
+### 1. Frontend (Projeto atual)
+### 2. Backend (https://github.com/AnaPerola/server_feedback_widget)
+### 3. Mobile (https://github.com/AnaPerola/mobile_feedback_widget)
+
+
+⚠️ Tanto o Frontend quanto o Mobile precisam que o Backend esteja sendo executado para funcionar.
+
+#
 
 ## 🔧 Iniciando o projeto
 
@@ -60,6 +74,10 @@ $ npm install
 ```console
 $ npm run dev
 ```
+
+Se tudo ocorreu bem, visite: http://localhost:3000 😆
+
+#
 
 <div align="center" style="display:flex; padding:5px; ">
   <img 
@@ -86,11 +104,16 @@ $ npm run dev
     style="height:40px; width:40px;"
     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" 
   />
+  <img
+    alt="Ana-NPM"
+    style="height:40px; width:40px;"
+    src="https://user-images.githubusercontent.com/43313420/105883616-57dbeb00-6007-11eb-9df2-de0e2a42655c.png" 
+  />
 </div>          
 
 ---
-Este projeto foi construído pela  @anaperola 💖 juntamente com a Rocketseat no evento *NLW Return*
 ⌨️ com ❤️ https://github.com/anaperola 😊
+_juntamente com a Rocketseat no evento *NLW Return*_
 
 ---
 ##### ⭐ Marque esse projeto com uma estrela
